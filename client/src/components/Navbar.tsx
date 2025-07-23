@@ -113,7 +113,7 @@ function Navbar() {
 
           <Box
             component="img"
-            src="/Ege-Garaj/images/isim.png"
+            src="/images/isim.png"
             alt="EGE GARAJ"
             onClick={() => navigate('/')}
             sx={{
