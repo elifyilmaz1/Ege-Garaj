@@ -19,10 +19,10 @@ import { useInView } from 'react-intersection-observer';
 const works = [
   {
     images: [
-      { src: '/images/work1.png', description: 'Çelik Rötuş Uygulamamız Öncesi-Sonrası'},
-      { src: '/images/bgd2.jpg', description: 'Çamurluk göçük düzeltme öncesi-sonrası' },
-      { src: '/images/bgd3.jpg', description: 'Tavan göçük düzeltme öncesi-sonrası' },
-      { src: '/images/bgd4.jpg', description: 'Bagaj kapağı göçük düzeltme öncesi-sonrası' },
+      { src: 'images/work1.png', description: 'Çelik Rötuş Uygulamamız Öncesi-Sonrası'},
+      { src: 'images/bgd2.jpg', description: 'Çamurluk göçük düzeltme öncesi-sonrası' },
+      { src: 'images/bgd3.jpg', description: 'Tavan göçük düzeltme öncesi-sonrası' },
+      { src: 'images/bgd4.jpg', description: 'Bagaj kapağı göçük düzeltme öncesi-sonrası' },
     ],
   },
 
@@ -76,7 +76,7 @@ function Calismalarimiz() {
                         <CardMedia
                           component="img"
                           height={isMobile ? '120px' : isTablet ? '150px' : '180px'}
-                          image={'/images/work1.png'}
+                          image={'images/work1.png'}
                           alt={image.description}
                           sx={{
                             objectFit: 'contain',

@@ -7,6 +7,7 @@ import {
   Stack,
   Link,
 } from '@mui/material';
+
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Footer() {
@@ -57,7 +58,7 @@ function Footer() {
               sx={{ p: 0 }}
             >
               <img
-                src="/images/tiktok.png"
+                src="images/tiktok.png"
                 alt="Tiktok"
                 style={{ width: 24, height: 24 }}
               />

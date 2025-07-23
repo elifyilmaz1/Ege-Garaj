@@ -43,7 +43,7 @@ function Navbar() {
         <Toolbar disableGutters>
           <Box
             component="img"
-            src="/images/isim.png"
+            src="images/isim.png"
             alt="Logo"
             onClick={() => navigate('/')}
             sx={{
@@ -113,7 +113,7 @@ function Navbar() {
 
           <Box
             component="img"
-            src="/images/isim.png"
+            src="/Ege-Garaj/images/isim.png"
             alt="EGE GARAJ"
             onClick={() => navigate('/')}
             sx={{

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Container, Typography, Button, Stack } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 function Home() {
   const navigate = useNavigate();
@@ -8,7 +9,7 @@ function Home() {
   return (
     <Box
       sx={{
-        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/dukkan.png")',
+        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/dukkan.png")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minHeight: '100vh',
